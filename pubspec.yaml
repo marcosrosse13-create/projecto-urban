@@ -1,0 +1,46 @@
+name: projecto_urban
+description: A collaborative urban planning app for Maputo city.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+
+  # UI & State Management
+  provider: ^6.1.2
+  google_maps_flutter: ^2.10.0
+  google_maps_flutter_android: ^2.14.9
+
+  # Location & Geolocation
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+
+  # Image Picker
+  image_picker: ^1.1.2
+
+  # Utilities - VERSÃO CORRIGIDA
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets (descomente quando adicionar imagens)
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
